@@ -1,0 +1,107 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url(AugustBright-Regular.otf);
+}
+@font-face {
+  font-family: mySecondFont;
+  src: url(Neuton-Light.ttf);
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body{
+background-color: #9882AC;  
+}
+
+img {
+  height: 150px;
+  width: 100px;
+}
+
+h1{
+  text-align: center;
+  font-family: myFirstFont;
+  font-size: 45px;
+  color: #360A14;
+}
+
+p{
+  font-family: mySecondFont;
+  color: #5E0B15;
+}
+
+::placeholder{
+  font-family: mySecondFont;
+  color: #5E0B15;
+}
+
+.add{
+  font-family: myFirstFont;
+   padding: 5px 10px;
+    color:#5E0B15;
+    background-color: #ffffff;
+  border-style: solid;
+    border-color:#5E0B15 ;
+}
+
+h4{
+  color:#5E0B15;
+  font-family: mySecondFont;
+  font-size: 25px;
+}
+
+
+a {
+ 
+font-size: 20px;
+  font-family: mySecondFont;    
+  color:#5E0B15;
+padding:10%;
+  text-decoration: none;
+   transition: transform 0.3s ,font-size 0.3s;
+}
+
+a:hover{
+  text-decoration: none;
+  font-size:25px;
+  margin-left:5px;
+  margin-right:5px;
+  color: #360A14;
+
+  text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #000000 0px 0px 20px, #000000 0px 0px 30px, #000000 0px 0px 40px, #000000 0px 0px 50px, #000000 0px 0px 75px;
+  color: #FFFFFF;
+}
+
+
+
+
+/*phone display  */
+
+.form {
+   margin: 0 auto 20px auto;
+  font-size: 18px;
+text-align: center;
+}
+
+.container{
+  display:flex ; 
+   flex-direction: row; 
+  margin-left:43%;
+padding: 20px;
+}
+.head{
+  display: flex; 
+   flex-direction: column ;
+  margin-left: 10%;
+  text-align: center;
+    line-height: .2;
+}
+
+@media screen and (max-width: 700px) {
+  .container {
+ margin-left: 10%;
+  }
+}
